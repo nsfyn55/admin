@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/art/src/vistar/vistar/static/coffee/controller'
+let g:netrw_dirhist_2='/home/art/src/vistar/vistar/static/coffee'
+let g:netrw_dirhist_3='/home/art/src/vistar/vistar/static/coffee/model'
+let g:netrw_dirhist_4='/home/art/src/vistar'
+let g:netrw_dirhist_5='/home/art/src/vistar/vistar/static/coffee'
+let g:netrw_dirhist_6='/home/art/src/vistar/vistar/static/coffee/model'
+let g:netrw_dirhist_7='/home/art/src/vistar'
+let g:netrw_dirhist_8='/home/art/src/vistar/vistar/static/coffee'
+let g:netrw_dirhist_9='/home/art/src/vistar/vistar/static/coffee/model'

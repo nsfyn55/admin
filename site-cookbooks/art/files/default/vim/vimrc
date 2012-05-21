@@ -1,0 +1,53 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+colorscheme desert
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set number
+set autoindent
+set hlsearch 
+set wildmenu
+set wildmode=list:longest,full
+
+map <C-S-]> gt
+map <C-S-[> gT
+map <C-1> 1gt
+map <C-2> 2gt
+map <C-3> 3gt
+map <C-4> 4gt
+map <C-5> 5gt
+map <C-6> 6gt
+map <C-7> 7gt
+map <C-8> 8gt
+map <C-9> 9gt
+map <C-0> :tablast<CR>
+
+map op  :e %:h<CR>
+map ,tt  :tabnew %:h<CR>
+map ,sp :sp<CR>
+map ,vp :vsp<CR>
+map ,bd :bd<CR>
+map ,qa :qa!<CR>
+map ,n :bn<CR>
+map ,M :vertical resize 10000<CR>
+map ,m 100 <C-W>_ 
+map <C-j> <C-w>
+
+
+:map <M-<> <C-W><
+:map <M->> <C-W>>
+
+:map - <C-W>-
+:map + <C-W>+
+
+:map <C-j> <C-W>j
+:map <C-k> <C-W>k
+:map <C-h> <C-W>h
+:map <C-l> <C-W>l
+
+nmap <F8> :TagbarToggle<CR> 
+au BufRead,BufNewFile *.json set filetype=javascript
+au BufRead,BufNewFile *.template set filetype=javascript
+au FileType javascript command -range=% -nargs=* Tidy <line1>,<line2>! json_xs -f json -t json-pretty

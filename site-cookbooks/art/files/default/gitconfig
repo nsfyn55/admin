@@ -1,0 +1,9 @@
+[core]
+  editor = vim
+[user]
+  name = nsfyn55 
+  email = nsfyn55@gmail.com
+[diff]
+  external = git_diff_wrapper
+[pager]
+  diff =
