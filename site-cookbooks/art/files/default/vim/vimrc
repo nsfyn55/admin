@@ -33,6 +33,7 @@ map ,qa :qa!<CR>
 map ,n :bn<CR>
 map ,M :vertical resize 10000<CR>
 map ,m 100 <C-W>_ 
+map ,b :LustyJuggler<CR> 
 map <C-j> <C-w>
 
 
