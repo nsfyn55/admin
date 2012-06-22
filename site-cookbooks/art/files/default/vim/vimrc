@@ -1,3 +1,5 @@
+set timeout timeoutlen=100 ttimeoutlen=100 
+let mapleader = ','
 call pathogen#infect()
 syntax on
 filetype plugin indent on
