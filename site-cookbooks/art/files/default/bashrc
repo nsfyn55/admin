@@ -99,7 +99,10 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 if [ $TERM == "xterm-256color" ] || [  $TERM == "xterm" ]; then
-  echo "HERE"
   tmux new -d -s 'admin' && tmux new -d -s 'dev'; 
   tmux attach -t 'admin'
+fi
+
+if [ -f ~/.Xdefaults ]; then
+  xrdb -merge ~/.Xdefaults
 fi

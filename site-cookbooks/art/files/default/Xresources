@@ -1,0 +1,9 @@
+XTerm*background:       black
+XTerm*foreground:       white
+XTerm*cursorColor:      white
+XTerm.vt100.geometry:   79x25
+XTerm*scrollBar:        true
+XTerm*scrollTtyOutput:  false
+
+!screen saver
+xscreensaver.timeout: 5

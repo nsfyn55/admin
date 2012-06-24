@@ -3,7 +3,8 @@ let mapleader = ','
 call pathogen#infect()
 syntax on
 filetype plugin indent on
-colorscheme desert
+set t_Co=256
+colorscheme twilight256
 set tabstop=2
 set shiftwidth=2
 set expandtab

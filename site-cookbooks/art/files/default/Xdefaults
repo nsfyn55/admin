@@ -1,0 +1,12 @@
+*customization: -color
+XTerm*termName:  xterm-256color
+XTerm*scrollBar: false
+XTerm*vt100.scrollBar: false
+XTerm*background: black
+XTerm*foreground: white
+XTerm*multiScroll: on
+XTerm*jumpScroll: on
+XTerm*SaveLines: 10000
+XTerm*vt100*geometry: 120x60
+XTerm*faceName: Inconsolata
+XTerm*faceSize: 11 

@@ -1,1 +1,4 @@
 . ~/.bashrc
+
+#Set vi mode
+set -o vi
