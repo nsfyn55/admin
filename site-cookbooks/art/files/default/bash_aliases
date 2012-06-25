@@ -2,3 +2,5 @@ alias t='tmux'
 alias admin="tmux switch-client -t 'admin' || tmux attach -t 'admin'"
 alias dev="tmux switch-client -t 'dev' || tmux attach -t 'dev'"
 alias tkill='pgrep tmux | xargs kill'
+
+alias venv="cd ~/src/admin/environments/"

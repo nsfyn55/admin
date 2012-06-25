@@ -1,4 +1,4 @@
-set timeout timeoutlen=100 ttimeoutlen=100 
+set timeout timeoutlen=200 ttimeoutlen=100 
 let mapleader = ','
 call pathogen#infect()
 syntax on
@@ -39,6 +39,10 @@ map ,m 100 <C-W>_
 map ,b :LustyJuggler<CR> 
 map <C-j> <C-w>
 
+map _T :TlistOpen<CR>
+map _TT :TlistClose<CR>
+map _C :copen<CR>
+map _CC :cclose<CR>
 
 :map <M-<> <C-W><
 :map <M->> <C-W>>
